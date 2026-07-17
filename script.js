@@ -70,20 +70,22 @@ topBtn.addEventListener("click", () => {
 // Navbar Scroll Effect
 // =======================================
 
+// =======================================
+// Navbar Scroll Effect
+// =======================================
+
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
 
-    if (window.scrollY > 50) {
+    if (window.scrollY > 80) {
 
-        header.style.background = "#000";
-
+        header.style.background = "rgba(0,0,0,0.95)";
         header.style.boxShadow = "0 5px 20px rgba(255,215,0,0.25)";
 
     } else {
 
-        header.style.background = "rgba(0,0,0,0.95)";
-
+        header.style.background = "transparent";
         header.style.boxShadow = "none";
 
     }
